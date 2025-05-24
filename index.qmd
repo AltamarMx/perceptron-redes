@@ -1,0 +1,120 @@
+---
+title: "Del perceptrón a las redes neuronales"
+author: "Guillermo Barrios"
+date: "2025-05-24"
+site-url: "https://<tu-usuario>.github.io/PresentacionPerceptron"
+project:
+  type: website
+  output-dir: docs  
+format:
+  revealjs:
+    theme: simple
+    logo: 'img/logo.png'
+    slide-level: 2       # convierte todos los encabezados ## en nuevas diapositivas
+    slide-number: true
+    incremental: true     # aparece elemento a elemento
+    transition: fade
+execute:
+  echo: false            # no muestres el código por defecto
+---
+
+
+## Del Perceptrón a las redes neuronales {.center}
+::: incremental 
+_live coding_ en Google Colab para entender las redes neuronales.
+:::
+
+
+## Paper de Rosenblatt
+
+![](img/summary_perceptron.png){ .lightbox}
+
+
+
+## Detalle ampliado
+
+![](img/language_translation.png){ .lightbox }
+
+## Invierno de la IA (1974--1980)
+
+
+<br>
+<br>
+
+
+  El **informe Lighthill** de Sir James Lighthill (enero de 1973), encargado por el Consejo de Investigación de Ciencias del Reino Unido, concluyó que los avances reales de la IA estaban muy por debajo de lo prometido y recomendó retirar la mayor parte de los fondos estatales a proyectos en este campo.
+
+
+## ¿Qué es un perceptrón?
+
+<br>
+
+- Unidad de procesamiento inspirada en la **neurona biológica**.  
+- Clasificador binario: decide si una entrada pertenece a una clase u otra.  
+- Propuesto por **Frank Rosenblatt** en 1957.
+
+
+## Esquema del perceptrón
+
+<br>
+<br>
+
+![](img/perceptron_scheme.png){ .lightbox}
+
+
+## Perceptrón
+
+<br>
+
+$z = \mathbf{w}^\top \mathbf{x} + b$
+
+<br>
+
+$h(z) =
+\begin{cases}
+0, & z < 0,\\
+1, & z \ge 0,
+\end{cases}$
+
+<br>
+
+$f_{w,b}(\mathbf{x}) = h\bigl(\mathbf{w}^\top \mathbf{x} + b\bigr)$
+
+
+# Visión vectorial
+
+Definimos vectores ampliados para incluir el bias:
+
+\[
+\mathbf{w} = (b,\; w_1,\; \dots,\; w_m), 
+\quad
+\mathbf{x} = (1,\; x_1,\; \dots,\; x_m)
+\]
+
+Entonces:
+
+\[
+z = \mathbf{w}^\top \mathbf{x},
+\quad
+y = \phi\bigl(\mathbf{w}^\top \mathbf{x}\bigr).
+\]
+
+---
+
+# Implementación en Python
+
+```python
+# Pesos y bias iniciales
+w = [0, 0]   # para m = 2 entradas
+b = 0
+
+# Función de activación escalón
+def activate(z):
+    return 1 if z >= 0 else 0
+
+# Predicción del perceptrón
+def predict(x):
+    # x es una lista de longitud 2
+    z = w[0]*x[0] + w[1]*x[1] + b
+    return activate(z)
+```
