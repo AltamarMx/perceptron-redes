@@ -2,7 +2,6 @@
 title: "Del perceptrón a las redes neuronales"
 author: "Guillermo Barrios"
 date: "2025-05-24"
-
 format:
   revealjs:
     theme: simple
