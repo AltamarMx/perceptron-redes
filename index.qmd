@@ -39,7 +39,7 @@ _live coding_ en Google Colab para entender las redes neuronales.
   El **informe Lighthill** de Sir James Lighthill (enero de 1973), encargado por el Consejo de Investigación de Ciencias del Reino Unido, concluyó que los avances reales de la IA estaban muy por debajo de lo prometido y recomendó retirar la mayor parte de los fondos estatales a proyectos en este campo.
 
 
-## ¿Qué es un perceptrón?
+## ¿Qué es un perceptrón
 
 <br>
 

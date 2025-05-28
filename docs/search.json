@@ -31,8 +31,8 @@
     "objectID": "index.html#qué-es-un-perceptrón",
     "href": "index.html#qué-es-un-perceptrón",
     "title": "Del perceptrón a las redes neuronales",
-    "section": "¿Qué es un perceptrón?",
-    "text": "¿Qué es un perceptrón?\n\n\nUnidad de procesamiento inspirada en la neurona biológica.\n\nClasificador binario: decide si una entrada pertenece a una clase u otra.\n\nPropuesto por Frank Rosenblatt en 1957."
+    "section": "¿Qué es un perceptrón",
+    "text": "¿Qué es un perceptrón\n\n\nUnidad de procesamiento inspirada en la neurona biológica.\n\nClasificador binario: decide si una entrada pertenece a una clase u otra.\n\nPropuesto por Frank Rosenblatt en 1957."
   },
   {
     "objectID": "index.html#esquema-del-perceptrón",
