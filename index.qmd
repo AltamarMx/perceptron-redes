@@ -78,7 +78,8 @@ $h(z) =
 
 <br>
 
-$y = f_{w,b}(\mathbf{x}) = h\bigl(\mathbf{w}^\top \mathbf{x} + b\bigr)$
+$y = h\bigl(\mathbf{w}^\top \mathbf{x} + b\bigr)$
+<!-- $y = f_{w,b}(\mathbf{x}) = h\bigl(\mathbf{w}^\top \mathbf{x} + b\bigr)$ -->
 
 <!-- ## Error y actualización -->
 
@@ -240,6 +241,17 @@ b = 0
 
 ::::
 
+## AND: Perceptrón en Google Colab
+
+[![](img/google_colab_AND.png)](https://colab.research.google.com/drive/1OMee_vTQXbdsXTrN6syQydwA8k_ccVp_?usp=sharing)
+
+
+
+## XOR: Perceptrón en Google Colab
+
+[![](img/google_colab_XOR.png)](https://colab.research.google.com/drive/10nrTgGWWoMYsv_Os3cbFlF0eAI1Spx1p?usp=sharing)
+
+
 
 ## AND y XOR
 
@@ -282,3 +294,14 @@ b = 0
 * Permite entrenar cualquier grafo computacional compuesto de operaciones derivables.
 
 
+
+
+## XOR: Red neuronal en Google Colab
+
+[![](img/red_xor.png)](https://colab.research.google.com/drive/11L2vVBkQ65aNBMT-lrMGZjp5Q9606Nn9?usp=sharing)
+
+
+
+## Playground TensorFlow {.center}
+
+![https://playground.tensorflow.org/](https://playground.tensorflow.org/)
