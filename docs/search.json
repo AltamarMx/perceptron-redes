@@ -1,0 +1,142 @@
+[
+  {
+    "objectID": "index.html#del-perceptrón-a-las-redes-neuronales",
+    "href": "index.html#del-perceptrón-a-las-redes-neuronales",
+    "title": "Del perceptrón a las redes neuronales",
+    "section": "Del Perceptrón a las redes neuronales",
+    "text": "Del Perceptrón a las redes neuronales\nlive coding en Google Colab para entender las redes neuronales."
+  },
+  {
+    "objectID": "index.html#paper-de-rosenblatt",
+    "href": "index.html#paper-de-rosenblatt",
+    "title": "Del perceptrón a las redes neuronales",
+    "section": "Paper de Rosenblatt",
+    "text": "Paper de Rosenblatt"
+  },
+  {
+    "objectID": "index.html#detalle-ampliado",
+    "href": "index.html#detalle-ampliado",
+    "title": "Del perceptrón a las redes neuronales",
+    "section": "Detalle ampliado",
+    "text": "Detalle ampliado"
+  },
+  {
+    "objectID": "index.html#invierno-de-la-ia-19741980",
+    "href": "index.html#invierno-de-la-ia-19741980",
+    "title": "Del perceptrón a las redes neuronales",
+    "section": "Invierno de la IA (1974–1980)",
+    "text": "Invierno de la IA (1974–1980)\n \nEl informe Lighthill de Sir James Lighthill (enero de 1973), encargado por el Consejo de Investigación de Ciencias del Reino Unido, concluyó que los avances reales de la IA estaban muy por debajo de lo prometido y recomendó retirar la mayor parte de los fondos estatales a proyectos en este campo."
+  },
+  {
+    "objectID": "index.html#qué-es-un-perceptrón",
+    "href": "index.html#qué-es-un-perceptrón",
+    "title": "Del perceptrón a las redes neuronales",
+    "section": "¿Qué es un perceptrón?",
+    "text": "¿Qué es un perceptrón?\n\n\nUnidad de procesamiento inspirada en la neurona biológica.\n\nClasificador binario: decide si una entrada pertenece a una clase u otra.\n\nPropuesto por Frank Rosenblatt en 1957."
+  },
+  {
+    "objectID": "index.html#esquema-del-perceptrón",
+    "href": "index.html#esquema-del-perceptrón",
+    "title": "Del perceptrón a las redes neuronales",
+    "section": "Esquema del perceptrón",
+    "text": "Esquema del perceptrón"
+  },
+  {
+    "objectID": "index.html#perceptrón",
+    "href": "index.html#perceptrón",
+    "title": "Del perceptrón a las redes neuronales",
+    "section": "Perceptrón",
+    "text": "Perceptrón\n\n\\(z = \\mathbf{w}^\\top \\mathbf{x} + b\\)\n\n\\(h(z) =\n\\begin{cases}\n0, & z &lt; 0,\\\\\n1, & z \\ge 0,\n\\end{cases}\\)\n\n\\(y = h\\bigl(\\mathbf{w}^\\top \\mathbf{x} + b\\bigr)\\) \n\n\\(\\text{error}=Y−y\\)\n\\(\\Delta w_i = \\mathrm{LR}\\,\\bigl(Y - y\\bigr)\\,x_i\\)"
+  },
+  {
+    "objectID": "index.html#manual-de-uso-de-un-perceptrón",
+    "href": "index.html#manual-de-uso-de-un-perceptrón",
+    "title": "Del perceptrón a las redes neuronales",
+    "section": "Manual de uso de un perceptrón",
+    "text": "Manual de uso de un perceptrón\n\nInicializar\n\nIterar por épocas\n\nPara cada ejemplo de entrenamiento\n\nCalcular la salida del perceptrón\n\nCalcular el error\n\nActualizar los pesos y sesgo\n  \n\nDevolver pesos y el sesgo ajustados"
+  },
+  {
+    "objectID": "index.html#puerta-lógica-and",
+    "href": "index.html#puerta-lógica-and",
+    "title": "Del perceptrón a las redes neuronales",
+    "section": "Puerta lógica AND",
+    "text": "Puerta lógica AND\n\n\n\n\n\n\nA\n\n\nB\n\n\nA & B\n\n\n\n\n\n\n0\n\n\n0\n\n\n0\n\n\n\n\n0\n\n\n1\n\n\n0\n\n\n\n\n1\n\n\n0\n\n\n0\n\n\n\n\n1\n\n\n1\n\n\n1\n\n\n\n\n\n# Entradas\nx = np.array([\n    [0, 0],\n    [0, 1],\n    [1, 0],\n    [1, 1]\n])\n\n# Salidas deseadas\nY = np.array([0, 0, 0, 1])\n\n# Pesos iniciales\nw = np.array([0,0])\n\n# Sesgo inicial\nb = 0"
+  },
+  {
+    "objectID": "index.html#puerta-lógica-xor",
+    "href": "index.html#puerta-lógica-xor",
+    "title": "Del perceptrón a las redes neuronales",
+    "section": "Puerta lógica XOR",
+    "text": "Puerta lógica XOR\n\n\n\n\n\n\nA\n\n\nB\n\n\nA ⊕ B\n\n\n\n\n\n\n0\n\n\n0\n\n\n0\n\n\n\n\n0\n\n\n1\n\n\n1\n\n\n\n\n1\n\n\n0\n\n\n1\n\n\n\n\n1\n\n\n1\n\n\n0\n\n\n\n\n\n# Entradas\nx = np.array([\n    [0, 0],\n    [0, 1],\n    [1, 0],\n    [1, 1]\n])\n\n# Salidas deseadas para XOR\nY = np.array([0, 1, 1, 0])\n\n# Pesos iniciales\nw = np.array([0,0])\n\n# Sesgo inicial\nb = 0"
+  },
+  {
+    "objectID": "index.html#and-perceptrón-en-google-colab",
+    "href": "index.html#and-perceptrón-en-google-colab",
+    "title": "Del perceptrón a las redes neuronales",
+    "section": "AND: Perceptrón en Google Colab",
+    "text": "AND: Perceptrón en Google Colab"
+  },
+  {
+    "objectID": "index.html#xor-perceptrón-en-google-colab",
+    "href": "index.html#xor-perceptrón-en-google-colab",
+    "title": "Del perceptrón a las redes neuronales",
+    "section": "XOR: Perceptrón en Google Colab",
+    "text": "XOR: Perceptrón en Google Colab"
+  },
+  {
+    "objectID": "index.html#and-y-xor",
+    "href": "index.html#and-y-xor",
+    "title": "Del perceptrón a las redes neuronales",
+    "section": "AND y XOR",
+    "text": "AND y XOR"
+  },
+  {
+    "objectID": "index.html#and-y-xor-1",
+    "href": "index.html#and-y-xor-1",
+    "title": "Del perceptrón a las redes neuronales",
+    "section": "AND y XOR",
+    "text": "AND y XOR"
+  },
+  {
+    "objectID": "index.html#backpropagation-y-redes-neuronales",
+    "href": "index.html#backpropagation-y-redes-neuronales",
+    "title": "Del perceptrón a las redes neuronales",
+    "section": "Backpropagation y Redes Neuronales",
+    "text": "Backpropagation y Redes Neuronales\n\n\n\nAño\nInvestigador\n“Nombre” de la contribución\n\n\n\n\n1970\nSeppo Linnainmaa\nReverse-mode AD\n\n\n1974\nPaul Werbos\nBack-prop en redes\n\n\n1982\nJohn Hopfield\nInterés en redes neuronales\n\n\n1986\nRumelhart-Hinton-Williams\nBack-prop popularizado"
+  },
+  {
+    "objectID": "index.html#backpropagation-multicapa",
+    "href": "index.html#backpropagation-multicapa",
+    "title": "Del perceptrón a las redes neuronales",
+    "section": "Backpropagation + Multicapa",
+    "text": "Backpropagation + Multicapa\n\n\n\n\n\n\n\n\nPaso\nPerceptrón simple\nMulticapa (+ back-prop)\n\n\n\n\nActivación\nEscalón (h) – no derivable\nSigmoide – derivable\n\n\nCapas\n1 (entrada → salida)\n2 (entrada → oculta → salida)\n\n\nAprendizaje\nRegla de perceptrón\nGradiente descendente con retro-propagación\n\n\nPuede aprender XOR\n❌\n✅"
+  },
+  {
+    "objectID": "index.html#multicapas",
+    "href": "index.html#multicapas",
+    "title": "Del perceptrón a las redes neuronales",
+    "section": "Multicapas",
+    "text": "Multicapas"
+  },
+  {
+    "objectID": "index.html#back-propagation-cómo-aprende-una-red",
+    "href": "index.html#back-propagation-cómo-aprende-una-red",
+    "title": "Del perceptrón a las redes neuronales",
+    "section": "Back-propagation: cómo aprende una red",
+    "text": "Back-propagation: cómo aprende una red\n\nCalcula el error en la salida.\nPropaga ese error hacia atrás usando la regla de la cadena para obtener la pendiente (gradiente) de cada peso.\nCombina los gradientes con descenso del gradiente (u otro optimizador) para actualizar los parámetros.\nPermite entrenar cualquier grafo computacional compuesto de operaciones derivables."
+  },
+  {
+    "objectID": "index.html#xor-red-neuronal-en-google-colab",
+    "href": "index.html#xor-red-neuronal-en-google-colab",
+    "title": "Del perceptrón a las redes neuronales",
+    "section": "XOR: Red neuronal en Google Colab",
+    "text": "XOR: Red neuronal en Google Colab"
+  },
+  {
+    "objectID": "index.html#playground-tensorflow",
+    "href": "index.html#playground-tensorflow",
+    "title": "Del perceptrón a las redes neuronales",
+    "section": "Playground TensorFlow",
+    "text": "Playground TensorFlow\n\n\n\nhttps://playground.tensorflow.org/"
+  }
+]

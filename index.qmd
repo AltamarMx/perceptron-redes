@@ -2,10 +2,7 @@
 title: "Del perceptrón a las redes neuronales"
 author: "Guillermo Barrios"
 date: "2025-05-24"
-site-url: "https://<tu-usuario>.github.io/PresentacionPerceptron"
-project:
-  type: website
-  output-dir: docs  
+
 format:
   revealjs:
     theme: simple
@@ -14,8 +11,6 @@ format:
     slide-number: true
     incremental: true     # aparece elemento a elemento
     transition: fade
-execute:
-  echo: false            # no muestres el código por defecto
 ---
 
 
